@@ -1,0 +1,56 @@
+	</div>
+	<footer>
+		<p>The responsive page of Tony Brown, done with mobile first, demonstrating understanding and knowledge of modern web development and design techniques, I learned these techniques from reading books from industry leaders in responsive design and development&copy;2012</p>
+	
+			<ul class="footer">
+				<li><a href="index.html" title="home_page" target="_self">home</a></li>
+				<li><a href="geo.html" title="twitter_application_page" target="_self">geo</a></li>
+				<li><a href="slide.html" title="work_application_page" target="_self">work</a></li>
+				<li><a href="contact.html" title="home_page" target="_self">contact</a></li>
+			</ul>
+	</footer>
+  </div> <!--! end of #glow -->
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/mootools/1.4.1/mootools-yui-compressed.js"></script>
+
+
+  <!-- Scripts -->
+  <script src="js/libs/jquery-1.6.2.min.js"></script>
+
+  
+  <!--[if (lt IE 9) & (!IEMobile)]>
+  <script src="js/libs/imgsizer.js"></script>
+  <![endif]-->
+  
+  <script>
+  // iOS scale bug fix
+  MBP.scaleFix();
+  
+  // Respond.js
+  yepnope({
+  	test : Modernizr.mq('(only all)'),
+  	nope : ['js/libs/respond.min.js']
+  });
+  
+ 
+	
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <script>
+	window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+	Modernizr.load({
+	  load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+	});
+  </script>
+
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+	   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+	<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>

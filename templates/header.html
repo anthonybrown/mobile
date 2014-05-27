@@ -1,0 +1,82 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>	<html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>	<html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<!-- For all browsers -->
+<link href='http://fonts.googleapis.com/css?family=Fascinate+Inline|Open+Sans' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/style.css">
+
+<!-- For progressively larger displays -->
+<link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css">
+<link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css">
+<link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css">
+<link rel="stylesheet" media="only screen and (min-width: 1024px)" href="css/1024.css">
+<link rel="stylesheet" media="only screen and (min-width: 1280px)" href="css/1280.css">
+<link rel="stylesheet" media="only screen and (min-width: 1366px)" href="css/1380.css">
+<link rel="stylesheet" media="only screen and (min-width: 1440px)" href="css/1440.css">
+<link rel="stylesheet" media="only screen and (min-width: 1600px)" href="css/1600.css">
+<!-- For Retina displays -->
+
+<!--[if (lt IE 9) & (!IEMobile)]>
+<script src="js/libs/selectivizr-min.js"></script>
+<![endif]-->
+
+<!-- JavaScript -->
+<script src="js/libs/modernizr-2.0.6.min.js"></script>
+
+<!-- For iPhone 4 -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+<!-- For iPad 1-->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+<!-- For iPhone 3G, iPod Touch and Android -->
+<link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+<!-- For Nokia -->
+<link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+<!-- For everything else -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<!--iOS. Delete if not required -->
+<!-- Mobile viewport optimized: j.mp/bplateviewport -->
+<meta name="viewport" content="width=device-width">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-startup-image" href="img/splash.png">
+
+<meta name="description" content="PHP, MySQL, ">
+<meta name="description" content="jQuery, mootools">
+<meta name="description" content="JavaScript,  HTML5">
+<meta name="description" content="CSS3, media queries">
+<meta name="description" content="responsive design"
+<meta name="author" content="Tony Brown">
+
+<!--Microsoft. Delete if not required -->
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 7 ]><script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script><script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script><![endif]-->
+
+<!-- http://t.co/y1jPVnT -->
+<link rel="canonical" href="/">
+<title><?php if(defined('TITLE')) {echo TITLE;} else { echo "Responsive Design";} ?></title>
+</head>
+
+<body>
+<div id="glow">
+  <div id="wrapper">
+	<header>
+	<h1>Responsive site</h1>
+	<a href='index.html'><h2>mobile ready</h2></a>
+	<nav>
+		<ul>
+			<li><a href="index.html" title="home_page" target="_self">home</a></li>
+			<li><a href="geo.html" title="twitter_application_page" target="_self">geo</a></li>
+			<li><a href="skills.html" title="skills_page" target="_self">skills</a></li>
+			<li><a href="slide.html" title="skider_page" target="_self">slider</a></li>
+			<li><a href="contact.php" title="contact_page" target="_self">contact</a></li>
+		</ul>
+	</nav>
+	</header>
+	<div id="main" role="main">
